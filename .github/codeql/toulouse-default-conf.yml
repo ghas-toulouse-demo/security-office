@@ -6,7 +6,7 @@ queries:
 query-filters:
 - include:
     kind:
-    - problem
+    #- problem
     - path-problem
     - alert
     - path-alert
@@ -51,8 +51,8 @@ query-filters:
     tags contain:
       - model-generator
 - exclude:
-    #kind:
-    #- problem
+    kind:
+    - problem
     #- path-problem
     #- alert
     #- path-alert
