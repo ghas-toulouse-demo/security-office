@@ -6,10 +6,10 @@ queries:
 query-filters:
 - include:
     kind:
-    # - problem
-    # - path-problem
+    - problem
+    - path-problem
     - alert
-    # - path-alert
+    - path-alert
     precision:
     # - low
     # - medium
