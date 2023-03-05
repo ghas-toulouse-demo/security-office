@@ -8,18 +8,18 @@ query-filters:
     kind:
     - problem
     - path-problem
-    #- alert
-    #- path-alert
+    - alert
+    - path-alert
     precision:
     # - low
     # - medium
-    #- high
+    - high
     - very-high
     tags contain:
     - security
-    # - correctness
-    # - maintainability
-    # - readability
+    - correctness
+    - maintainability
+    - readability
 # - include:
 #     kind:
 #     - problem
@@ -59,10 +59,10 @@ query-filters:
     precision:
     - low
     - medium
-    - high
+    # - high
     # - very-high
-    tags contain:
+    #tags contain:
     #- security
-    - correctness
-    - maintainability
-    - readability  
+    # - correctness
+    # - maintainability
+    # - readability  
