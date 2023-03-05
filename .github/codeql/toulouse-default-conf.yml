@@ -50,3 +50,19 @@ query-filters:
 - exclude:
     tags contain:
       - model-generator
+- exclude:
+    # kind:
+    # - problem
+    # - path-problem
+    # - alert
+    # - path-alert
+    precision:
+    - low
+    - medium
+    # - high
+    # - very-high
+    # tags contain:
+    # - security
+    # - correctness
+    # - maintainability
+    # - readability       
