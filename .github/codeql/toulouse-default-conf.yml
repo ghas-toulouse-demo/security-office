@@ -13,7 +13,7 @@ query-filters:
     precision:
     # - low
     # - medium
-    - high
+    # - high
     - very-high
     tags contain:
     - security
@@ -59,7 +59,7 @@ query-filters:
     precision:
     - low
     - medium
-    # - high
+    - high
     # - very-high
     tags contain:
     #- security
