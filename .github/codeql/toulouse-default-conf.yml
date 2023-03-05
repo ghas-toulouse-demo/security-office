@@ -6,14 +6,14 @@ queries:
 query-filters:
 - include:
     kind:
-    - problem
+    #- problem
     - path-problem
-    - alert
-    - path-alert
+    #- alert
+    #- path-alert
     precision:
     # - low
     # - medium
-    - high
+    #- high
     - very-high
     tags contain:
     - security
@@ -51,18 +51,18 @@ query-filters:
     tags contain:
       - model-generator
 - exclude:
-    # kind:
-    # - problem
-    # - path-problem
-    # - alert
-    # - path-alert
+    kind:
+    - problem
+    #- path-problem
+    #- alert
+    #- path-alert
     precision:
-    - low
-    - medium
-    # - high
-    # - very-high
-    # tags contain:
-    # - security
-    # - correctness
-    # - maintainability
-    # - readability       
+     - low
+     - medium
+    - high
+    #- very-high
+    tags contain:
+    #- security
+    - correctness
+    - maintainability
+    - readability  
