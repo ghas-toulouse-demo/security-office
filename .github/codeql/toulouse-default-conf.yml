@@ -7,9 +7,9 @@ query-filters:
 - include:
     precision:
       - very-high
+      - high
 - exclude:
     problem.severity:
       - error
       - warning
       - recommendation
-
