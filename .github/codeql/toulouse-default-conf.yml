@@ -57,10 +57,10 @@ query-filters:
     #- alert
     #- path-alert
     precision:
-     - low
-     - medium
+    - low
+    - medium
     - high
-    #- very-high
+    # - very-high
     tags contain:
     #- security
     - correctness
