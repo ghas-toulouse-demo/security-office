@@ -8,8 +8,8 @@ queries:
 #     precision:
 #       - very-high
 #       - high
-# - exclude:
-#     problem.severity:
-#       - error
-#       - warning
-#       - recommendation
+- exclude:
+    problem.severity:
+      - error
+      - warning
+      - recommendation
